@@ -1,0 +1,127 @@
+Development:
+  - IDE:
+    - Develop:
+      - Pre-Commit Hooks (DevSecOps Stages)
+      - Pre-Publish Hooks (DevSecOps Stages)
+      - IDE Plugins
+    - Git:
+      - Code Scans (DevSecOps Stages)
+      - Secret Vaults (DevSecOps Stages)
+    - Testing:
+      - Unit Test
+      - Mutation Test
+      - Static Code Analysis (DevSecOps Stages)
+
+ Jenkins / CI Tool:
+
+    - Test:
+      - Unit Test
+      - Mutation Test
+      - Static Code Analysis (DevSecOps Stages)
+    - Build:
+      - Packages
+      - Dependency Scan (DevSecOps Stages)
+      - Container Images
+      - Image Scan (DevSecOps Stages)
+      - Image Signature
+
+    - Deploy - Stage:
+      - Validate Image Signature (DevSecOps Stages)
+      - Integration Testing
+
+    - Deploy - Prod:
+      - Validate Runtime Configs (DevSecOps Stages)
+      - DAST Pen Test (DevSecOps Stages)
+      - Compliance Checks (DevSecOps Stages)
+      - Performance Test
+    - Monitor:
+      - Log Aggregation
+      - Security Logs (DevSecOps Stages)
+      - Resource Utilization
+    - Secure:
+      - SSL/TLS
+      - Network Policies
+      - Auditing
+
+
+Section 1
+
+• Setting up the VM
+  • Azure Account Creation
+  • Azure VM Deployment
+• Installing Software
+    • Install Docker
+    • Setting K8S Cluster
+    • Install Java and Maven
+    • Install Jenkins/Plugins
+• Understanding the Usecase
+    • SpringBoot Application
+    • NodeJS Application
+• Basic DevOps Pipeline (4 stages)
+  • Build
+  • Test
+  • Docker Build
+  • Kubernetes Deploy
+
+Section 2
+
+Adding security to pipeline
+  • Git Hooks - Talisman
+  • Testing
+    • Mutation - PIT
+    • Integration
+• Scans
+  • Dependency Checks
+  • Trivy - Images
+  • OPA - Dockerfile
+  • Kubesec - K8S
+• SAST - SonarQube
+• DAST - OWASP ZAP
+• Deploy to K8S Dev Namespace
+    • Deployment
+    • Rollout Status
+• Basic Slack Notifications
+    • Legacy App Notifications
+
+Section 3
+
+ Istio Service Mesh
+    • Installation
+    • Kiali
+    • mTLS
+    • Metrics
+• Deploy to Prod Environment
+    • CIS Benchmarking
+    • Testing
+    • Limits
+• Monitoring
+    • Kube-scan
+    • Falco
+    • Falco UI
+    • Falco Slack
+• HELM
+• Advanced Slack Notifications
+    • Rich Message Layout
+    • Emojis
+
+
+
+Talisman
+GitHub 
+Maven
+Jenkins
+PIT Test 
+SonarQube
+Trivy
+Dependency
+OPA 
+Docker 
+Kubernetes 
+Kubesec
+OWASP ZAP 
+Kube-bench
+JMeter
+Slack
+Istio Kiali
+Falco
+Grafana
