@@ -11,7 +11,8 @@ Development:
       - Unit Test
       - Mutation Test
       - Static Code Analysis (DevSecOps Stages)
-
+      password:123456
+      login:Yhakkache
  Jenkins / CI Tool:
 
     - Test:
